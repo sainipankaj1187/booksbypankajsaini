@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" role="img" aria-labelledby="t"><title id="t">Badoga placeholder cover</title>
+<defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#20150e"/><stop offset="1" stop-color="#9a4f22"/></linearGradient></defs><rect width="800" height="1120" fill="url(#g)"/><path d="M0 780c180-100 328-76 456-150 135-78 218-77 344-46v536H0Z" fill="#120f0d"/>
+<circle cx="403" cy="470" r="116" fill="none" stroke="#e0a25d" stroke-width="7" opacity=".55"/><path d="M390 350c-58 40-88 116-69 183 20 70 83 124 158 130 25-55 24-122-2-176-22-47-43-84-87-137Z" fill="#0c0b0a"/><path d="M238 532c62 4 103-16 160-42M398 490c71 20 117 62 154 116" stroke="#d48a43" stroke-width="20" stroke-linecap="round"/>
+<g fill="#f2dfbf" font-family="Georgia,serif" text-anchor="middle"><text x="400" y="100" font-size="44" letter-spacing="10">PANKAJ SAINI</text><text x="400" y="870" font-size="28" letter-spacing="7">MUSIC MEN · VOLUME I</text><text x="400" y="980" font-size="118" font-weight="bold">BADOGA</text></g><path d="M160 1020h480" stroke="#d48a43" stroke-width="4"/>
+</svg>

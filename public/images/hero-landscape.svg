@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 980" role="img" aria-labelledby="t d">
+<title id="t">Prehistoric landscape</title><desc id="d">A dark prehistoric landscape with a plateau, stars and a ribbon of Ether.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#151824"/><stop offset=".65" stop-color="#3d2b26"/><stop offset="1" stop-color="#a55f36"/></linearGradient><linearGradient id="ether"><stop stop-color="#f8c56e"/><stop offset=".5" stop-color="#e67153"/><stop offset="1" stop-color="#8c79c9"/></linearGradient></defs>
+<rect width="760" height="980" fill="url(#sky)"/>
+<g fill="#f3d5a1" opacity=".7"> <circle cx="85" cy="90" r="2"/><circle cx="180" cy="170" r="3"/><circle cx="275" cy="75" r="2"/><circle cx="430" cy="130" r="2"/><circle cx="640" cy="80" r="3"/><circle cx="700" cy="230" r="2"/><circle cx="530" cy="250" r="2"/></g>
+<circle cx="585" cy="190" r="68" fill="#f4d59c" opacity=".84"/>
+<path d="M0 650C140 560 230 590 340 535c105-52 179-62 420-12v457H0Z" fill="#231a17"/>
+<path d="M40 660c90-34 170-21 221-59 37-28 53-92 101-126 49-36 135-24 198-7l-22 59c-63-16-104-11-137 14-45 34-55 90-105 122-73 46-163 24-256 66Z" fill="#39251d"/>
+<path d="M290 570l53-137h164l47 137Z" fill="#171310"/><path d="M336 437c32-27 135-25 174 0Z" fill="#0f0d0b"/>
+<path d="M-60 790C120 650 204 862 382 708s273 54 446-117" fill="none" stroke="url(#ether)" stroke-width="7" opacity=".88"/>
+<path d="M-30 835C128 720 210 890 388 758s260 28 415-91" fill="none" stroke="#f5c477" stroke-width="2" opacity=".55"/>
+<g fill="#0b0908"><path d="M170 845l18-85 18 85Z"/><path d="M215 865l12-62 14 62Z"/><path d="M620 850l18-92 20 92Z"/></g>
+</svg>

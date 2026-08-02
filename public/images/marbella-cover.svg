@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1120" role="img" aria-labelledby="t"><title id="t">Marbella placeholder cover</title>
+<defs><linearGradient id="g" y2="1"><stop stop-color="#111528"/><stop offset=".66" stop-color="#422448"/><stop offset="1" stop-color="#d36e45"/></linearGradient></defs><rect width="800" height="1120" fill="url(#g)"/>
+<path d="M0 760l70-50 45 30 70-89 45 72 85-120 68 112 82-90 54 84 71-134 55 112 75-73 80 69v437H0Z" fill="#0c0d16"/>
+<path d="M510 140l-92 188 72-20-86 189 54-14-82 170" fill="none" stroke="#f5e8ff" stroke-width="14" stroke-linejoin="round"/><path d="M377 650c18-112 54-186 105-222 18 78 48 144 96 198-52 45-128 54-201 24Z" fill="#090a10"/><circle cx="478" cy="414" r="35" fill="#11121a"/>
+<g fill="#f4edf7" font-family="Georgia,serif" text-anchor="middle"><text x="400" y="100" font-size="44" letter-spacing="10">PANKAJ SAINI</text><text x="400" y="865" font-size="28" letter-spacing="7">MUSIC MEN · VOLUME II</text><text x="400" y="980" font-size="103" font-weight="bold">MARBELLA</text></g><path d="M135 1020h530" stroke="#d69be5" stroke-width="4"/>
+</svg>
