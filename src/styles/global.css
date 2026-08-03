@@ -146,6 +146,16 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
 .world-panel img { width: min(100%, 420px); margin: auto; }
 .world-panel p { max-width: 650px; }
 
+.universe-hero { background: var(--paper-deep); }
+.universe-hero h1 { max-width: 800px; }
+.universe-posts { padding-top: clamp(4rem, 8vw, 7rem); }
+.poem-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2.5vw, 2rem); align-items: start; }
+.poem-card { display: grid; background: rgba(255,255,255,.42); border: 1px solid var(--line); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.poem-card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(33,27,22,.11); }
+.poem-card:focus-visible { outline: 3px solid var(--ember); outline-offset: 4px; }
+.poem-card img { width: 100%; height: auto; background: white; }
+.poem-card > span { display: flex; justify-content: space-between; gap: 1rem; padding: 1rem 1.1rem; border-top: 1px solid var(--line); color: var(--ink); font-size: .7rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+
 .essay-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
 .essay-card { padding: clamp(1.6rem, 4vw, 3rem); border: 1px solid var(--line); background: rgba(255,255,255,.36); }
 .essay-card--lead { grid-row: span 2; background: var(--night); color: white; }
@@ -173,6 +183,7 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
   .hero, .book-hero, .about-hero { grid-template-columns: 1fr; min-height: auto; }
   .hero__art { max-width: 620px; }
   .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .poem-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .book-card--featured { grid-template-columns: minmax(210px, .7fr) minmax(0, 1.3fr); }
   .feature-list { grid-template-columns: 1fr; }
   .feature-list article + article { border-left: 0; border-top: 1px solid rgba(255,255,255,.18); padding-left: 0; }
@@ -188,7 +199,7 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
   h1 { font-size: clamp(2.8rem, 15vw, 4.5rem); }
   .hero { padding-block: 3rem 5rem; }
   .hero__art img { min-height: 430px; }
-  .book-grid, .essay-grid, .lore-grid, .path-cards { grid-template-columns: 1fr; }
+  .book-grid, .essay-grid, .lore-grid, .path-cards, .poem-grid { grid-template-columns: 1fr; }
   .book-card--featured { grid-template-columns: 1fr; }
   .book-card--featured .book-card__cover { max-height: none; }
   .author-strip { grid-template-columns: 100px 1fr; }
