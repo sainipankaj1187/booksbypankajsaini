@@ -25,6 +25,7 @@ export default defineConfig(({ isSsrBuild }) => ({
             ambakvid: page('./books/ambakvid/index.html'),
             aragbat: page('./books/aragbat/index.html'),
             universe: page('./universe/index.html'),
+            gallery: page('./gallery/index.html'),
             writing: page('./writing/index.html'),
             about: page('./about/index.html'),
           },

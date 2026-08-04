@@ -15,7 +15,7 @@ export function HomePage() {
           </p>
           <div className="button-row">
             <a className="button" href="/books/">Explore the books</a>
-            <a className="button button--ghost" href="/universe/">Enter the universe</a>
+            <a className="button button--ghost" href="/universe/">Read the poems</a>
           </div>
         </div>
         <div className="hero__art" aria-hidden="true">
@@ -56,7 +56,7 @@ export function HomePage() {
             <article><span>02</span><h3>The Aranavs</h3><p>A prehistoric species capable of being possessed—and of channelling Ether.</p></article>
             <article><span>03</span><h3>The Code</h3><p>A law meant to restrain magic, unnatural experiments and interference with evolution.</p></article>
           </div>
-          <a className="button button--light" href="/universe/">Discover the lore</a>
+          <a className="button button--light" href="/universe/">Read the poems</a>
         </div>
       </section>
 

@@ -6,6 +6,7 @@ export type PageKey =
   | 'ambakvid'
   | 'aragbat'
   | 'universe'
+  | 'gallery'
   | 'writing'
   | 'about';
 

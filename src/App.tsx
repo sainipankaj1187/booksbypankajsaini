@@ -1,6 +1,7 @@
 import { AboutPage } from './pages/AboutPage';
 import { BookDetailPage } from './pages/BookDetailPage';
 import { BooksPage } from './pages/BooksPage';
+import { GalleryPage } from './pages/GalleryPage';
 import { HomePage } from './pages/HomePage';
 import { UniversePage } from './pages/UniversePage';
 import { WritingPage } from './pages/WritingPage';
@@ -16,6 +17,7 @@ export function App({ page }: { page: PageKey }) {
     case 'ambakvid': return <BookDetailPage book={bookBySlug.ambakvid} />;
     case 'aragbat': return <BookDetailPage book={bookBySlug.aragbat} />;
     case 'universe': return <UniversePage />;
+    case 'gallery': return <GalleryPage />;
     case 'writing': return <WritingPage />;
     case 'about': return <AboutPage />;
   }

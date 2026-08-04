@@ -3,7 +3,8 @@ import type { PageKey } from '../types';
 
 const navItems: Array<{ href: string; label: string; keys: PageKey[] }> = [
   { href: '/books/', label: 'Books', keys: ['books', 'badoga', 'marbella', 'ambakvid', 'aragbat'] },
-  { href: '/universe/', label: 'Universe', keys: ['universe'] },
+  { href: '/universe/', label: 'Poems', keys: ['universe'] },
+  { href: '/gallery/', label: 'Gallery', keys: ['gallery'] },
   { href: '/writing/', label: 'Writing', keys: ['writing'] },
   { href: '/about/', label: 'About', keys: ['about'] },
 ];
@@ -37,7 +38,8 @@ export function SiteLayout({ page, children }: PropsWithChildren<{ page: PageKey
         </div>
         <div className="footer-links" aria-label="Footer navigation">
           <a href="/books/">Books</a>
-          <a href="/universe/">Universe</a>
+          <a href="/universe/">Poems</a>
+          <a href="/gallery/">Gallery</a>
           <a href="/writing/">Writing</a>
           <a href="/about/">About</a>
         </div>
