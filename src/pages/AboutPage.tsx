@@ -4,7 +4,9 @@ export function AboutPage() {
   return (
     <SiteLayout page="about">
       <section className="about-hero section-shell">
-        <div className="about-portrait" aria-hidden="true"><span>PS</span></div>
+        <div className="about-portrait">
+          <img src="/images/pankaj-saini-portrait.jpg" alt="Pankaj Saini" />
+        </div>
         <div>
           <p className="eyebrow">About the author</p>
           <h1>Pankaj Saini writes fantasy shaped by music, science, history, and mythology, often subverting accepted conventions and norms.</h1>
