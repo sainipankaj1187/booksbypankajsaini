@@ -8,7 +8,7 @@ export function HomePage() {
       <section className="hero section-shell">
         <div className="hero__copy">
           <p className="eyebrow">Pankaj Saini · Indian author</p>
-          <h1>Books. Music. Travel. Coffee.</h1>
+          <h1>Books. Music. Coffee.</h1>
           <p className="hero__lede">
             Coffee enthusiast. I write fantasy fiction and share book recommendations in my Instagram Highlights.
           </p>
@@ -40,7 +40,7 @@ export function HomePage() {
         <div>
           <p className="eyebrow">About the writer</p>
           <h2>Fantasy writer. Music lover. Coffee enthusiast.</h2>
-          <p>Pankaj writes fantasy fiction and shares books, music, travel and reading recommendations.</p>
+          <p>Pankaj writes fantasy fiction and shares books, music and reading recommendations.</p>
           <a className="text-link" href="/about/">Read the full biography <span aria-hidden="true">→</span></a>
         </div>
       </section>

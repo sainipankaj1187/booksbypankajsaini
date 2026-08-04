@@ -33,7 +33,7 @@ export function SiteLayout({ page, children }: PropsWithChildren<{ page: PageKey
       <footer className="site-footer">
         <div>
           <strong>Pankaj Saini</strong>
-          <p>Books, music, travel and fantasy fiction.</p>
+          <p>Books, music and fantasy fiction.</p>
         </div>
         <div className="footer-links" aria-label="Footer navigation">
           <a href="/books/">Books</a>
