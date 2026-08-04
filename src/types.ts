@@ -7,7 +7,6 @@ export type PageKey =
   | 'aragbat'
   | 'universe'
   | 'gallery'
-  | 'writing'
   | 'about';
 
 export type Book = {

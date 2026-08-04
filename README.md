@@ -11,7 +11,6 @@ A self-contained, static, multi-page author website built with **Vite, React and
 - `/books/ambakvid/`
 - `/books/aragbat/`
 - `/universe/`
-- `/writing/`
 - `/about/`
 
 ## Run locally

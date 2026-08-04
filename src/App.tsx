@@ -4,7 +4,6 @@ import { BooksPage } from './pages/BooksPage';
 import { GalleryPage } from './pages/GalleryPage';
 import { HomePage } from './pages/HomePage';
 import { UniversePage } from './pages/UniversePage';
-import { WritingPage } from './pages/WritingPage';
 import { bookBySlug } from './data/books';
 import type { PageKey } from './types';
 
@@ -18,7 +17,6 @@ export function App({ page }: { page: PageKey }) {
     case 'aragbat': return <BookDetailPage book={bookBySlug.aragbat} />;
     case 'universe': return <UniversePage />;
     case 'gallery': return <GalleryPage />;
-    case 'writing': return <WritingPage />;
     case 'about': return <AboutPage />;
   }
 }

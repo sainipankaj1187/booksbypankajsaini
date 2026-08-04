@@ -11,7 +11,6 @@ const pages = [
   ['dist/books/aragbat/index.html', 'aragbat'],
   ['dist/universe/index.html', 'universe'],
   ['dist/gallery/index.html', 'gallery'],
-  ['dist/writing/index.html', 'writing'],
   ['dist/about/index.html', 'about'],
 ];
 
