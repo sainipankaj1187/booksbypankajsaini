@@ -8,7 +8,7 @@ export const books: Book[] = [
     year: '2019',
     format: 'Novel',
     status: 'Published',
-    cover: '/images/badoga-cover.svg',
+    cover: '/images/badoga-cover.jpg',
     shortDescription:
       'An ordinary Bangalore engineer, an amateur boxer and an unlikely beginning for a distinctly Indian superhero.',
     description: [
@@ -31,7 +31,7 @@ export const books: Book[] = [
     year: '2020',
     format: 'Novel',
     status: 'Published',
-    cover: '/images/marbella-cover.svg',
+    cover: '/images/marbella-cover.jpg',
     shortDescription:
       'A sharp, volatile and unapologetic female superhero steps into the storm at the heart of Music Men.',
     description: [
@@ -54,7 +54,7 @@ export const books: Book[] = [
     year: '2023',
     format: 'Graphic novel',
     status: 'Published',
-    cover: '/images/ambakvid-cover.svg',
+    cover: '/images/ambakvid-cover.jpg',
     shortDescription:
       'A quick-paced graphic novel about one of the strangest figures in the Music Men universe.',
     description: [
