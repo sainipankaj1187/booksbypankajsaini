@@ -15,7 +15,7 @@ export function SiteLayout({ page, children }: PropsWithChildren<{ page: PageKey
       <header className="site-header">
         <a className="wordmark" href="/" aria-label="Pankaj Saini, home">
           <span>Pankaj Saini</span>
-          <small>Writer · Music Men</small>
+          <small>Writer · Fantasy Fiction</small>
         </a>
         <nav className="site-nav" aria-label="Main navigation">
           {navItems.map((item) => (
@@ -33,7 +33,7 @@ export function SiteLayout({ page, children }: PropsWithChildren<{ page: PageKey
       <footer className="site-footer">
         <div>
           <strong>Pankaj Saini</strong>
-          <p>Fantasy, superheroes, music and stories from before history learned to remember.</p>
+          <p>Books, music, travel and fantasy fiction.</p>
         </div>
         <div className="footer-links" aria-label="Footer navigation">
           <a href="/books/">Books</a>
