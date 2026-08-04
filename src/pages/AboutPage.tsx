@@ -7,7 +7,7 @@ export function AboutPage() {
         <div className="about-portrait" aria-hidden="true"><span>PS</span></div>
         <div>
           <p className="eyebrow">About the author</p>
-          <h1>Pankaj Saini writes fantasy shaped by music, mythology and modern India.</h1>
+          <h1>Pankaj Saini writes fantasy shaped by music, science, history, and mythology, often subverting accepted conventions and norms.</h1>
           <p className="hero__lede">He is the author of the Music Men novels Badoga and Marbella, and the graphic origin tale Ambakvid. The third novel, Aragbat, travels back to the prehistoric beginnings of the series.</p>
         </div>
       </section>
