@@ -26,8 +26,8 @@ export function HomePage() {
       <section className="section-shell section-block">
         <SectionHeading
           eyebrow="The books"
-          title="Fantasy, superheroes and unlikely heroes."
-          copy="Explore Pankaj Saini’s published novels and graphic origin tale."
+          title="Fantasy and unlikely superheroes."
+          copy="Explore Pankaj Saini’s published novels and a short graphic novel."
         />
         <div className="book-grid">
           {books.filter((book) => book.slug !== 'aragbat').map((book) => <BookCard key={book.slug} book={book} />)}
