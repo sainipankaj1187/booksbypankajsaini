@@ -17,7 +17,7 @@ export function AboutPage() {
       <section className="section-shell about-grid section-block">
         <div className="prose-block">
           <p>Pankaj is a Bangalore-based writer and technology leader. He began taking writing seriously alongside a growing relationship with music and the drums, eventually building a fictional universe where sound, power, history and human damage are tightly connected.</p>
-          <p>His stories move between modern cities and deep prehistory. They combine superhero fiction, soft science fiction, action and humour with an increasing focus on character, atmosphere and emotional consequence.</p>
+          <p>His stories move between modern cities and deep prehistory, combining superhero fiction, soft science fiction, action and humour with pop-culture references. They often subvert familiar norms and conventions, particularly those surrounding religion, the supernatural and dogma.</p>
           <p>He has published two novels and one graphic novel in the Music Men series. Aragbat, the next full-length volume, is complete and forms the origin story of the larger saga.</p>
         </div>
         <aside className="about-facts">
@@ -26,7 +26,7 @@ export function AboutPage() {
             <div><dt>Based in</dt><dd>Bangalore, India</dd></div>
             <div><dt>Published work</dt><dd>Two novels and one graphic novel</dd></div>
             <div><dt>Current project</dt><dd>Music Men, Volume III: Aragbat</dd></div>
-            <div><dt>Recurring influences</dt><dd>Music, mythology, history, comics and character-driven fantasy</dd></div>
+            <div><dt>Recurring influences</dt><dd>Music, mythology, history, pop culture and character-driven fantasy</dd></div>
           </dl>
         </aside>
       </section>

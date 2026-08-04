@@ -40,7 +40,7 @@ export function HomePage() {
         <div>
           <p className="eyebrow">About the writer</p>
           <h2>Fantasy writer. Music lover. Coffee enthusiast.</h2>
-          <p>Pankaj writes fantasy fiction and shares books, music and reading recommendations.</p>
+          <p>His fantasy draws on pop culture while subverting familiar norms and conventions—particularly those surrounding religion, the supernatural and dogma.</p>
           <a className="text-link" href="/about/">Read the full biography <span aria-hidden="true">→</span></a>
         </div>
       </section>
