@@ -18,7 +18,7 @@ export function BooksPage() {
           </ol>
         </div>
         <div className="book-list">
-          {books.map((book) => <BookCard key={book.slug} book={book} featured />)}
+          {books.map((book) => <BookCard key={book.slug} book={book} />)}
         </div>
       </section>
     </SiteLayout>
