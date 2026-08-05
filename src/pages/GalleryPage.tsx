@@ -21,18 +21,10 @@ const posts = [
 export function GalleryPage() {
   return (
     <SiteLayout page="gallery">
-      <header className="page-hero universe-hero">
-        <div className="section-shell">
-          <p className="eyebrow">Art from the archive</p>
-          <h1>Gallery.</h1>
-          <p>Images, characters and moments from Pankaj Saini’s creative journey.</p>
-        </div>
-      </header>
-
       <section className="section-shell section-block universe-posts" aria-labelledby="gallery-posts-title">
         <div className="section-heading">
           <p className="eyebrow">From Instagram</p>
-          <h2 id="gallery-posts-title">Stories in pictures</h2>
+          <h1 id="gallery-posts-title">Stories in pictures</h1>
           <p>Select an image to view the original post on Instagram.</p>
         </div>
 

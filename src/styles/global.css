@@ -103,6 +103,10 @@ p { line-height: 1.72; color: var(--ink-soft); }
 .page-hero > p:last-child, .page-hero .section-shell > p:last-child { max-width: 760px; font-size: 1.18rem; }
 .page-hero--dark { width: 100%; background: var(--night); color: white; border-bottom: 0; }
 .page-hero--dark p { color: #cbbdac; }
+.books-hero { padding-block: clamp(2.75rem, 5vw, 4.5rem); }
+.books-hero h1 { max-width: 900px; font-size: clamp(2.65rem, 5vw, 5rem); }
+.books-hero .reading-order { margin: clamp(2rem, 4vw, 3rem) 0 0; }
+.books-list-section { padding-top: clamp(2.5rem, 5vw, 4.5rem); }
 
 .reading-order { display: flex; justify-content: space-between; gap: 2rem; align-items: baseline; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 1.3rem 0; margin-bottom: 3rem; }
 .reading-order > span { color: var(--ember); text-transform: uppercase; letter-spacing: .13em; font-weight: 700; font-size: .68rem; }
@@ -141,6 +145,7 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
 .universe-hero { background: var(--paper-deep); }
 .universe-hero h1 { max-width: 800px; }
 .universe-posts { padding-top: clamp(4rem, 8vw, 7rem); }
+.universe-posts .section-heading h1 { font-size: clamp(2.5rem, 5vw, 5rem); margin-bottom: 1rem; }
 .poem-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2.5vw, 2rem); align-items: start; }
 .poem-card { display: grid; background: rgba(255,255,255,.42); border: 1px solid var(--line); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
 .poem-card:hover { transform: translateY(-4px); box-shadow: 0 16px 36px rgba(33,27,22,.11); }
@@ -152,7 +157,11 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
 .about-portrait { width: 100%; max-width: 480px; aspect-ratio: 4/5; overflow: hidden; border-radius: 0; background: var(--night); color: var(--ember-bright); box-shadow: 22px 22px 0 var(--paper-deep); }
 .about-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: center 35%; }
 .about-hero h1 { font-size: clamp(2rem, 3.6vw, 3.7rem); }
-.about-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr); gap: clamp(3rem, 8vw, 7rem); }
+.about-hero__prose { margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.about-hero__prose p:last-child { margin-bottom: 0; }
+.about-facts-section { padding-top: 0; }
+.about-facts-section .about-facts { width: 100%; }
+.about-facts-section dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(2rem, 6vw, 6rem); }
 .path-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); padding-block: 0; margin-bottom: clamp(5rem, 10vw, 9rem); border: 1px solid var(--line); }
 .path-cards article { background: var(--paper); padding: 2rem; }
 .path-cards span { color: var(--ember); font-size: .7rem; letter-spacing: .15em; }
@@ -171,7 +180,7 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
   .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .poem-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .book-card--featured { grid-template-columns: minmax(210px, .7fr) minmax(0, 1.3fr); }
-  .book-content-grid, .about-grid, .world-panel { grid-template-columns: 1fr; }
+  .book-content-grid, .world-panel { grid-template-columns: 1fr; }
   .path-cards { grid-template-columns: repeat(2, 1fr); }
 }
 
@@ -187,6 +196,7 @@ dd { margin: 0; font-family: var(--serif); font-size: 1.08rem; }
   .book-card--featured { grid-template-columns: 1fr; }
   .book-card--featured .book-card__cover { max-height: none; }
   .author-strip { grid-template-columns: 100px 1fr; }
+  .about-facts-section dl { grid-template-columns: 1fr; }
   .reading-order { align-items: flex-start; flex-direction: column; }
   .reading-order ol { gap: .7rem 1.2rem; }
   .timeline li { grid-template-columns: 45px 1fr; gap: 1rem; }

@@ -15,18 +15,10 @@ const posts = [
 export function UniversePage() {
   return (
     <SiteLayout page="universe">
-      <header className="page-hero universe-hero">
-        <div className="section-shell">
-          <p className="eyebrow">Fragments from the Music Men universe</p>
-          <h1>Tales in verse.</h1>
-          <p>Short poems, echoes and glimpses from the world of the Music Men.</p>
-        </div>
-      </header>
-
       <section className="section-shell section-block universe-posts" aria-labelledby="universe-posts-title">
         <div className="section-heading">
           <p className="eyebrow">From Instagram</p>
-          <h2 id="universe-posts-title">Poems from the universe</h2>
+          <h1 id="universe-posts-title">Poems from the Music Men Universe</h1>
           <p>Select a poem to view the original post on Instagram.</p>
         </div>
 
